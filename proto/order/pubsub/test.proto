@@ -1,5 +1,5 @@
 syntax = "proto3";
-package com.itor.grpc.order.pubsub;
+package com.itor.grpc.ordes.pubsub;
 option go_package = "github.com/protopub/golang/pb/erp/pubsub";
 
 message SalesOrder{
