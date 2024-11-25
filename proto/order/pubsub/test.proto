@@ -23,5 +23,5 @@ message SalesOrder{
   repeated SalesOrderItem detail_item = 9;
   optional int64 sales_order_id = 10;
   optional bool manual_closed = 11;
-  optional string close_reason = 12;
+  optional string close_reasonaa = 12;
 }
