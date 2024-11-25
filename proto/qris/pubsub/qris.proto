@@ -24,4 +24,5 @@ message SalesOrder{
   optional int64 sales_order_id = 10;
   optional bool manual_closed = 11;
   optional string close_reason = 12;
+  optional string uptime_reason = 13;
 }
