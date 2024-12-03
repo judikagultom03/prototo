@@ -9,7 +9,6 @@ message SalesOrder{
     int64 quantity = 3;
     optional double item_cash_discount = 4;
     optional string item_disc_percent = 5;
-    int64 warehouse_id = 6;
   }
 
   int64 database_id = 1;
