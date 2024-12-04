@@ -1,0 +1,22 @@
+syntax = "proto3";
+package com.itor.grpc.ordes.pubsub;
+option go_package = "github.com/protopub/golang/pb/erp/pubsub";
+
+message SalesOrder{
+  message SalesOrderItem{
+    string item_no = 1;
+    double unit_price = 2;
+    int64 quantity = 3;
+    optional double item_cash_discount = 4;
+    optional string item_disc_percent = 5;
+  }
+
+  int64 database_id = 1;
+  string customer_no = 2;
+  string trans_date = 3;
+  int64 branch_id = 4;
+  optional string description = 5;
+  string payment_term_name = 6;
+  string po_number = 7;
+
+}
