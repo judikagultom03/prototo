@@ -21,4 +21,6 @@ message SalesOrder{
   string po_number = 7;
   string ship_date = 8;
   repeated SalesOrderItem detail_item = 9;
+  optional int64 sales_order_id = 10;
+
 }
