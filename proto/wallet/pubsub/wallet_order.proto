@@ -17,5 +17,4 @@ message SalesOrder{
   string trans_date = 3;
   int64 branch_id = 4;
   optional string description = 5;
-  string payment_term_name = 6;
 }
