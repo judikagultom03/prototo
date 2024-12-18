@@ -14,4 +14,6 @@ message SalesOrder{
   int64 database_id = 1;
   string customer_no = 2;
   string trans_date = 3;
+  int64 branch_id = 4;
+  optional string description = 5;
 }
