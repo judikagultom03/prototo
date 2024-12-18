@@ -15,5 +15,11 @@ message SalesOrder{
   string customer_no = 2;
   string trans_date = 3;
   int64 branch_id = 4;
+  optional string description = 5;
+  string payment_term_name = 6;
+  string po_number = 7;
+  string ship_date = 8;
+  repeated SalesOrderItem detail_item = 9;
+  optional int64 sales_order_id = 10;
  
 }
