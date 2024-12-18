@@ -17,7 +17,6 @@ message SalesOrder{
   int64 branch_id = 4;
   optional string description = 5;
   string payment_term_name = 6;
-  string po_number = 7;
 
  
 }
