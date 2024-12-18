@@ -18,6 +18,6 @@ message SalesOrder{
   optional string description = 5;
   string payment_term_name = 6;
   string po_number = 7;
-  string ship_date = 8;
+
  
 }
