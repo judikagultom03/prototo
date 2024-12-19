@@ -5,4 +5,7 @@ option go_package = "github.com/astronautsid/astro-proto/golang/pb/erp/pubsub";
 message TestSchemaPipeline {
   int64 database_id = 1;
   int64 id1 = 2;
+  int64 id2 = 3;
+
+
 }
