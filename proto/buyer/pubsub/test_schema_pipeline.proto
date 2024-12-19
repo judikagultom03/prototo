@@ -6,6 +6,5 @@ message TestSchemaPipeline {
   int64 database_id = 1;
   int64 id1 = 2;
   int64 id2 = 3;
-
-
+  int64 id3 = 4;
 }
