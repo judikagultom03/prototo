@@ -1,0 +1,7 @@
+syntax = "proto3";
+package com.astro.grpc.erp.pubsub;
+option go_package = "github.com/astronautsid/astro-proto/golang/pb/erp/pubsub";
+
+message TestSchemaPipeline {
+  int64 database_id = 1;
+}
