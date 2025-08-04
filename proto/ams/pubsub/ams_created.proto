@@ -11,4 +11,5 @@ message TestSchemaPipeline {
   int64 id6 = 6;
   int64 id7 = 7;
   int64 id8 = 8;
+  int64 id8 = 9;
 }
